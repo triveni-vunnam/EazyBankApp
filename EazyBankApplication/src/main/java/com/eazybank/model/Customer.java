@@ -16,8 +16,14 @@ public class Customer {
     private String email;
     private String pwd;
     private String role;
+ 
 
-    public int getId() {
+    @Override
+	public String toString() {
+		return "Customer [id=" + id + ", email=" + email + ", pwd=" + pwd + ", role=" + role + "]";
+	}
+
+	public int getId() {
         return id;
     }
 
