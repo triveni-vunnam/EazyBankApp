@@ -1,5 +1,5 @@
 package com.eazybank.config;
-
+//it has been commented
 //import java.util.ArrayList;
 //import java.util.List;
 //
