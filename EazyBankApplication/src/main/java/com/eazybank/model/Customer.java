@@ -16,6 +16,7 @@ public class Customer {
     private String email;
     private String pwd;
     private String role;
+	private String surname;
  
 
     @Override
